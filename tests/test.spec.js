@@ -20,7 +20,7 @@ test('My Test Case', async ({}) => {
 });
 
 async function authenticate(page) {
-  await page.goto('https://bitheap.tech');"
+  await page.goto('https://bitheap.tech');
   await page.click('#menu-item-1311'); 
   await page.locator("[name='xoo-el-username']").fill("playwright")
   await page.locator("[name='xoo-el-password']").fill("playwright")
